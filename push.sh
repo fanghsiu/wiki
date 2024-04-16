@@ -7,5 +7,4 @@ then info="Initial commit"
 fi
 git add -A
 git commit -m "$info"
-git rebase -i HEAD~1
 git push
