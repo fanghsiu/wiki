@@ -27,5 +27,10 @@ export default defineConfig({
     search: {
       provider: 'local'
     }
+  },
+  vite: {
+    server: {
+      host: '0.0.0.0'
+    }
   }
 })
