@@ -11,10 +11,10 @@ hero:
   actions:
     - theme: brand
       text: Examples
-      link: /examples/markdown-examples
-    - theme: alt
-      text: Guide
-      link: /guide/mirror
+      link: /en/examples/markdown-examples
+    # - theme: alt
+    #   text: Guide
+    #   link: /guide/mirror
 
 features:
     - title: LUO TIANYI
