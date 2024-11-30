@@ -18,6 +18,9 @@ export default defineConfig({
       provider: 'local'
     }
   },
+  markdown: {
+    math: true,
+  },
   vite: {
     server: {
       host: '0.0.0.0'

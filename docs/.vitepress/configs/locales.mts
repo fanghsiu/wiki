@@ -22,23 +22,4 @@ export const locales = {
       }
     }
   },
-
-  en: {
-    label: 'English(0%)',
-    lang: 'en',
-    link: '/en/',
-    // 其余 locale 特定属性...
-    themeConfig: {
-      nav: nav.en,
-      sidebar: sidebar.en,
-      footer: {
-        message: 'Released under the MIT License',
-        copyright: 'Copyright © fanghsiu',
-      },
-      editLink: {
-        pattern: 'https://github.com/fanghsiu/wiki/edit/main/docs/:path',
-        text: 'Edit this page on GitHub'
-      }
-    }
-  }
 }
