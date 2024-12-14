@@ -9,8 +9,6 @@
 - [cdnjs - The #1 free and open source CDN built to make life easier for developers](https://cdnjs.com/)
 - [jsDelivr - A free, fast, and reliable CDN for open source](https://www.jsdelivr.com/)
 - [BootCDN - Bootstrap 中文网开源项目免费 CDN 加速服务](https://www.bootcdn.cn/)
-- [360 前端静态资源库](https://cdn.baomitu.com/vue)
-- [字节跳动静态资源公共库](https://cdn.bytedance.com/)
 - [npm | Home](https://www.npmjs.com/)
 - [UNPKG](https://unpkg.com/)
 - [npmmirror 中国镜像站](https://npmmirror.com/)
