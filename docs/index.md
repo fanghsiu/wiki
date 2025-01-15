@@ -14,9 +14,6 @@ hero:
     - theme: alt
       text: 指南
       link: /guide/mirror
-    - theme: alt
-      text: 公考
-      link: /公考/行测/
 
 features:
   - title: 洛天依<p style="color:#66CCFF">#66CCFF</p>
