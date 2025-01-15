@@ -1,4 +1,4 @@
-export const zh = {
+export const sidebarConfig = {
   '/examples/': [{
     text: 'Examples',
     items: [
@@ -9,8 +9,8 @@ export const zh = {
   '/guide/': [{
     text: 'Guide',
     items: [
-      { text: 'Mirror Site', link: '/guide/mirror' },
+      { text: 'Mirror Site', link: '/guide/site' },
       { text: 'Public DNS', link: '/guide/dns' },
     ],
-  }],
+  }]
 }

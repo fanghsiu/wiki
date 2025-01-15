@@ -1,13 +1,14 @@
-import { nav, sidebar } from "./index.mts"
+import { navConfig } from "./nav.mts"
+import { sidebarConfig } from "./sidebar.mts"
 
-export const locales = {
+export const localesConfig = {
   root: {
     label: '中文简体',
     lang: 'zh',
     link: '/',
     themeConfig: {
-      nav: nav.zh,
-      sidebar: sidebar.zh,
+      nav: navConfig,
+      sidebar: sidebarConfig,
       footer: {
         message: '基于 MIT 许可发布',
         copyright: '版权所有 © 方脩',

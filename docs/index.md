@@ -8,12 +8,15 @@ hero:
   tagline: 由 VitePress 生成的静态 WiKi 网站
   image: /images/logo.svg
   actions:
+    # - theme: brand
+    #   text: Vsinger
+    #   link: https://vsinger.com/vsinger
     - theme: brand
-      text: Vsinger
-      link: https://vsinger.com/vsinger
-    - theme: alt
       text: 指南
-      link: /guide/mirror
+      link: /guide/site
+    - theme: alt
+      text: 示例
+      link: /examples/markdown-examples
 
 features:
   - title: 洛天依<p style="color:#66CCFF">#66CCFF</p>
