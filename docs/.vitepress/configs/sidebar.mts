@@ -1,16 +1,18 @@
-export const sidebarConfig = {
+const sidebarConfig = {
   "/examples/": [{
     text: "Examples",
     items: [
       { text: "Markdown Examples", link: "/examples/markdown-examples" },
-      { text: "Runtime API Examples", link: "/examples/api-examples" },
-    ],
+      { text: "Runtime API Examples", link: "/examples/api-examples" }
+    ]
   }],
-  "/guide/": [{
-    text: "Guide",
+  "/guides/": [{
+    text: "Guides",
     items: [
-      { text: "Mirror Site", link: "/guide/site" },
-      { text: "Public DNS", link: "/guide/dns" },
-    ],
+      { text: "Tool Site", link: "/guides/site" },
+      { text: "Public DNS", link: "/guides/dns" }
+    ]
   }]
 }
+
+export default sidebarConfig;

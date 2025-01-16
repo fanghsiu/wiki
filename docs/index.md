@@ -1,10 +1,10 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
+# https://vitepress.dev/zh/reference/default-theme-home-page
 layout: home
 
 hero:
   name: "Fanghsiu's Wiki"
-  # text: "Fanghsiu's Wiki"
+  text: "A VitePress Site"
   tagline: 由 VitePress 生成的静态 WiKi 网站
   image: /images/logo.svg
   actions:
@@ -13,7 +13,7 @@ hero:
     #   link: https://vsinger.com/vsinger
     - theme: brand
       text: 指南
-      link: /guide/site
+      link: /guides/site
     - theme: alt
       text: 示例
       link: /examples/markdown-examples

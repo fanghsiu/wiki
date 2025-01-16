@@ -1,6 +1,6 @@
-export const navConfig = [
+const navConfig = [
   { text: "主页", link: "/" },
-  { text: "指南", link: "/guide/site" },
+  { text: "指南", link: "/guides/site" },
   { text: "示例", link: "/examples/markdown-examples" },
   {
     text: "其他网址", items: [
@@ -9,3 +9,5 @@ export const navConfig = [
     ]
   }
 ]
+
+export default navConfig;
