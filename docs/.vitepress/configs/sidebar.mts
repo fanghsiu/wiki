@@ -12,6 +12,12 @@ const sidebarConfig = {
       { text: "Tool Site", link: "/guides/site" },
       { text: "Public DNS", link: "/guides/dns" }
     ]
+  }],
+  "/exams/": [{
+    text: "Exams",
+    items: [
+      { text: "二〇二五", link: "/exams/#二〇二五" },
+    ]
   }]
 }
 

@@ -3,9 +3,9 @@ const navConfig = [
   { text: "指南", link: "/guides/site" },
   { text: "示例", link: "/examples/markdown-examples" },
   {
-    text: "其他网址", items: [
-      { text: "Hi~ o(*￣▽￣*)ブ", link: "https://www.fanghsiu.top/posts/hi" },
-      { text: "Vsinger", link: "https://vsinger.com" }
+    text: "考试", items: [
+      { text: "二〇二五", link: "/exams/" },
+      // { text: "Vsinger", link: "https://vsinger.com" }
     ]
   }
 ]

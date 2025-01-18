@@ -1,3 +1,9 @@
+---
+layout: doc
+---
+
+# 网站收藏集
+
 ## 镜像网站
 
 - [校园网联合镜像站](https://mirrors.cernet.edu.cn/)

@@ -1,3 +1,7 @@
+---
+layout: doc
+---
+
 # 公共DNS
 
 ## [阿里公共DNS](https://alidns.com/)

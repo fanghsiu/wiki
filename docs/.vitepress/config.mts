@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress"
+// Custom Configuration
 import navConfig from "./configs/nav.mts"
 import sidebarConfig from "./configs/sidebar.mts"
 import sociaLinksConfig from "./configs/sociaLinks.mts"
@@ -12,13 +13,15 @@ export default defineConfig({
   cleanUrls: true,
   appearance: "dark",
   lastUpdated: true,
+  // https://vitepress.dev/zh/reference/default-theme-config
   themeConfig: {
-    // https://vitepress.dev/zh/reference/default-theme-config
     logo: "/images/logo.svg",
 
     nav: navConfig,
 
     sidebar: sidebarConfig,
+
+    outline: { label: "页面导航" },
 
     socialLinks: sociaLinksConfig,
 
