@@ -21,7 +21,7 @@ export default defineConfig({
 
     sidebar: sidebarConfig,
 
-    outline: { label: "页面导航" },
+    outline: { label: "页面导航", level: "deep" },
 
     socialLinks: sociaLinksConfig,
 
