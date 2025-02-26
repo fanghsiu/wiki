@@ -11,7 +11,6 @@ export default defineConfig({
   head: [["link", { rel: "icon", href: "/images/logo.svg" }]],
   lang: "zh-CN",
   cleanUrls: true,
-  appearance: "dark",
   lastUpdated: true,
   // https://vitepress.dev/zh/reference/default-theme-config
   themeConfig: {
