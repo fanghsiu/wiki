@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress"
+import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons'
 // Custom Configuration
 import navConfig from "./configs/nav.mts"
 import sidebarConfig from "./configs/sidebar.mts"
@@ -40,5 +41,15 @@ export default defineConfig({
 
     search: { provider: "local" }
   },
-  markdown: { math: true }
+  markdown: {
+    math: true,
+    config(md) {
+      md.use(groupIconMdPlugin)
+    }
+  },
+  vite: {
+    plugins: [
+      groupIconVitePlugin()
+    ]
+  }
 })
