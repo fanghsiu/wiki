@@ -1,0 +1,6 @@
+name = "wiki"
+compatibility_date = "2025-06-20"
+workers_dev = true
+
+[assets]
+directory = "/docs/.vitepress/dist"
