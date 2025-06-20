@@ -2,4 +2,4 @@ name = "wiki"
 compatibility_date = "2025-06-20"
 
 [assets]
-directory = ".vitepress/dist"
+directory = "docs/.vitepress/dist"
