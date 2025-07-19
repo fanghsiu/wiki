@@ -5,13 +5,17 @@ layout: doc
 
 ## Anaconda
 
-```terminal [Anaconda Prompt (miniconda3)]
+::: code-group
+
+```shell [Anaconda Prompt (miniconda3)]
 %WINDIR%\System32\cmd.exe "/K" D:\Programs\miniconda3\Scripts\activate.bat D:\Programs\miniconda3
 ```
 
-```terminal [Anaconda PowerShell Prompt (miniconda3)]
+```shell [Anaconda PowerShell Prompt (miniconda3)]
 %WINDIR%\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy ByPass -NoExit -Command "& 'D:\Programs\miniconda3\shell\condabin\conda-hook.ps1' ; conda activate 'D:\Programs\miniconda3' "
 ```
+
+:::
 
 ## Vitepress
 ::: code-group
@@ -59,7 +63,7 @@ bun add vitepress-plugin-group-icons
 
 :::
 
-```sh
+```sh [bash]
 #!/bin/bash
 # 如果没有消息后缀，默认提交信息为 :pencil: update content
 info=${1:-":pencil: update content"}

@@ -49,7 +49,12 @@ export default defineConfig({
   },
   vite: {
     plugins: [
-      groupIconVitePlugin()
+      groupIconVitePlugin({
+        customIcon: {
+          anaconda: "devicon:anaconda",
+          bash: "devicon:bash"
+        }
+      })
     ]
   }
 })
