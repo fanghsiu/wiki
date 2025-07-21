@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: Novel
-      link: /novel/test
+      link: /novel/test/0
     # - theme: alt
     #   text: GitHub
     #   link: https://github.com/fanghsiu/wiki

@@ -15,7 +15,7 @@ export default defineAdditionalConfig({
     search: {  provider: "local" /* options: searchOptions() */ },
 
     sidebar: {
-      '/novel/test/': { base: '/novel/test/', items: sidebarGuide() },
+      '/novel/test/': { base: '/novel/test/', items: sidebarNovel() },
       // '/zh/reference/': { base: '/zh/reference/', items: sidebarReference() }
     },
 
@@ -26,10 +26,10 @@ export default defineAdditionalConfig({
       text: '在 GitHub 上编辑此页面'
     },
 
-    // footer: {
-    //   message: '基于 MIT 许可发布',
-    //   copyright: `版权所有 © 2019-${new Date().getFullYear()} 尤雨溪`
-    // },
+    footer: {
+      message: '基于 MIT 许可发布',
+      copyright: `版权所有 © 2019-${new Date().getFullYear()} 方脩`
+    },
 
     docFooter: {
       prev: '上一页',
@@ -66,8 +66,8 @@ function nav(): DefaultTheme.NavItem[] {
   return [
     {
       text: 'Novel',
-      link: '/novel/test',
-      // activeMatch: '/zh/guide/'
+      link: '/novel/test/0',
+      activeMatch: '/novel/test/'
     },
     // {
     //   text: '参考',
@@ -90,16 +90,19 @@ function nav(): DefaultTheme.NavItem[] {
   ]
 }
 
-function sidebarGuide(): DefaultTheme.SidebarItem[] {
+function sidebarNovel(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: '简介',
-      collapsed: false,
+      text: '蒋某某的一生',
+      // collapsed: false,
       items: [
-        { text: '简介', link: 'index' },
-        { text: '第一章', link: '1' },
-        { text: '第二章', link: '2' },
-        { text: '第三章', link: '3' }
+        { text: '简介', link: '0' },
+        { text: '第一章 废物的降生', link: '1' },
+        { text: '第二章 莫欺少年穷', link: '2' },
+        { text: '第三章 莫欺中年穷', link: '3' },
+        { text: '第四章 莫欺老年穷', link: '4' },
+        { text: '第五章 孤独的离世', link: '5' },
+        { text: '第六章 下一个轮回', link: '6' }
       ]
     },
     // {
