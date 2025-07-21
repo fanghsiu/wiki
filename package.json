@@ -2,10 +2,7 @@
   "scripts": {
     "docs:dev": "vitepress dev docs --host 0.0.0.0",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs",
-    "novel:dev": "vitepress dev novel --host 0.0.0.0",
-    "novel:build": "vitepress build novel",
-    "novel:preview": "vitepress preview novel"
+    "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
     "@iconify-json/devicon": "^1.2.31",

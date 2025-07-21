@@ -14,14 +14,8 @@ export default defineConfig({
   cleanUrls: true,
   lastUpdated: true,
   locales: {
-    root: {
-      label: '简体中文',
-      lang: 'zh'
-    },
-    novel: {
-      label: 'novel',
-      link: '/novel/'
-    }
+    // root: { label: '简体中文', lang: 'zh' },
+    novel: { label: 'novel', link: '/novel/' }
   },
   // https://vitepress.dev/zh/reference/default-theme-config
   themeConfig: {
