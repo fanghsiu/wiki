@@ -13,6 +13,16 @@ export default defineConfig({
   lang: "zh-CN",
   cleanUrls: true,
   lastUpdated: true,
+  locales: {
+    root: {
+      label: '简体中文',
+      lang: 'zh'
+    },
+    novel: {
+      label: 'novel',
+      link: '/novel/'
+    }
+  },
   // https://vitepress.dev/zh/reference/default-theme-config
   themeConfig: {
     logo: "/images/logo.svg",
