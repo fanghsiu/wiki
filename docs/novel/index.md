@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "Fanghsiu's Novel"
-  # text: "A VitePress Site"
-  # tagline: 由 VitePress 生成的静态 Novel 网站
+  text: "A VitePress Site"
+  tagline: 由 VitePress 生成的静态网站
   image: /images/logo.svg
   actions:
     - theme: brand

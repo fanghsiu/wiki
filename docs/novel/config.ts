@@ -19,6 +19,8 @@ export default defineAdditionalConfig({
       // '/zh/reference/': { base: '/zh/reference/', items: sidebarReference() }
     },
 
+    socialLinks: [],
+
     editLink: {
       pattern: 'https://github.com/fanghsiu/wiki/edit/main/docs/:path',
       text: '在 GitHub 上编辑此页面'
